@@ -4,10 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/stylesIndex.css">
+    <script src="./assets/scripts/logicIndex.js"></script>
 </head>
 
 <body>
+    <div class="formulario-Login">
+        <h2>Iniciar Sesión</h2>
+        <label for="usuario">Usuario: </label><br>
+        <input type="text" id="usuario" name="usuario" required><br>
+        <label for="contrasena">Contraseña: </label><br>
+        <input type="password" id="contraseña" name="contrasena" required><br>
+        <input type="submit" onclick="alertaLogin()">
+    </div>
 
 </body>
 
