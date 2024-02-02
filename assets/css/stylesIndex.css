@@ -1,5 +1,18 @@
+body {
+    background: linear-gradient(60deg, rgba(167, 85, 194, 1) 7%, rgba(242, 246, 208, 1) 36%, rgba(11, 85, 99, 1) 58%, rgba(61, 250, 255, 1) 85%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .formulario-Login {
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -38,14 +51,17 @@
     background-color: #45a049;
 }
 
-body {
-    background: linear-gradient(60deg, rgba(167, 85, 194, 1) 7%, rgba(242, 246, 208, 1) 36%, rgba(11, 85, 99, 1) 58%, rgba(61, 250, 255, 1) 85%);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+@media (max-width: 600px) {
+    .formulario-Login {
+        padding: 10px;
+    }
+
+    .formulario-Login input[type="text"],
+    .formulario-Login input[type="password"] {
+        margin: 5px 0;
+    }
+
+    .formulario-Login input[type="submit"] {
+        margin: 5px 0;
+    }
 }

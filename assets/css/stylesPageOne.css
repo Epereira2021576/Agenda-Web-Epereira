@@ -55,3 +55,39 @@ body {
 .contact-list ul ul li strong {
     color: #6c757d;
 }
+
+@media (max-width: 600px) {
+    .contact-list {
+        padding: 10px;
+    }
+
+    .contact-list li {
+        margin-bottom: 10px;
+    }
+
+    .contact-list ul ul {
+        padding: 5px 0;
+    }
+
+    .contact-list ul ul li {
+        margin-bottom: 2px;
+    }
+
+    .contact-list ul ul li strong {
+        font-size: 12px;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056B3;
+}
