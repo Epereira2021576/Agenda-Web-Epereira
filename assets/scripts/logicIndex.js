@@ -3,12 +3,15 @@ document.addEventListener('DOMContentLoaded', function () {
   formLogin.addEventListener('submit', function (event) {
     event.preventDefault();
 
-    var nombre = document.getElementById('nombre').value;
-    var contraseña = document.getElementById('contraseña').value;
+    var usuario = document.getElementById('usuario').value;
+    var password = document.getElementById('password').value;
 
     alert(
-      nombre +
-        ' Bienvenido al sistema, transportandonos a la lista de contactos...'
+      usuario +
+        '\n' +
+        password +
+        '\n' +
+        ' Login Completado! Transportandonos a la lista de contactos...'
     );
 
     window.location.href = '../Agenda-Web/assets/pages/pageOne.html';
