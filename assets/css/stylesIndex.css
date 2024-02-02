@@ -1,0 +1,51 @@
+.formulario-Login {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-Login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos de formularios */
+
+.formulario-Login input[type="text"],
+.formulario-Login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-Login input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario-Login input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+body {
+    background: linear-gradient(60deg, rgba(167, 85, 194, 1) 7%, rgba(242, 246, 208, 1) 36%, rgba(11, 85, 99, 1) 58%, rgba(61, 250, 255, 1) 85%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
