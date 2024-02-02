@@ -1,8 +1,16 @@
-function alertaLogin() {
-  let nombre = document.getElementById('nombre').value;
-  let contraseña = document.getElementById('contraseña').value;
-  alert(
-    `Nombre: ${nombre}\nContraseña: ${contraseña}\nLogin exitoso! Transportandonos a la lista de contactos...`
-  );
-  window.location.href = './assets/pages/pageOne.html';
-}
+document.addEventListener('DOMContentLoaded', function () {
+  var formLogin = document.getElementById('formulario-Login');
+  formLogin.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var nombre = document.getElementById('nombre').value;
+    var contraseña = document.getElementById('contraseña').value;
+
+    alert(
+      nombre +
+        ' Bienvenido al sistema, transportandonos a la lista de contactos...'
+    );
+
+    window.location.href = '../Agenda-Web/assets/pages/pageOne.html';
+  });
+});
