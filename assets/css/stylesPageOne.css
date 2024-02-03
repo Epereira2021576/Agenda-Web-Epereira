@@ -91,3 +91,28 @@ body {
 .button:hover {
     background-color: #0056B3;
 }
+
+.favorite-button {
+    margin-left: 314px;
+
+    background-color: #FFE2FE;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-button:hover {
+    background-color: #FFB3E6;
+}
+
+.favorite-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.favorite-icon:hover {
+    transform: scale(1.2);
+}
