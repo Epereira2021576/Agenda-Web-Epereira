@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F6D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.create-contact-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.create-contact-container h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.create-contact-container .input-container {
+    margin-bottom: 20px;
+}
+
+.create-contact-container .input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-contact-container .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-contact-container .input-container input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.create-contact-container .input-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .create-contact-container {
+        max-width: 100%;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056B3;
+}
